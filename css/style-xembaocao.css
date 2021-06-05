@@ -1,0 +1,142 @@
+* {
+    font-family: 'Nunito', sans-serif;
+}
+
+.nav-link {
+    font-weight: 600;
+    color: black !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    font-size: 20px;
+}
+
+.nav-link:hover {
+    background-color: #CE7A58 !important;
+    color: white !important;
+}
+
+.navbar-nav {
+    display: flex;
+    width: 100%;
+}
+
+.nav1 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 276px;
+    height: 40px;
+}
+
+.logo {
+    height: 80px;
+}
+
+.nav-pro5 {
+    height: 30px;
+}
+
+.nav-pro5:hover {
+    opacity: 0.6;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+}
+
+.butt {
+    width: 130px;
+    height: 40px !important;
+    border-color: #CE7A58 !important;
+    color: black !important;
+    font-weight: 600 !important;
+    font-size: 17px !important;
+    box-shadow: none !important;
+}
+
+.butt:hover {
+    color: white !important;
+    background-color: #CE7A58 !important;
+}
+
+.home-icon {
+    height: 30px;
+    background-color: #CE7A58;
+    padding-top: 23px;
+    padding-bottom: 22.6px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.home-icon-detail {
+    color: white;
+}
+
+.home-icon-detail:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/* breadrumb  */
+.breadcrumb-non-active {
+    text-decoration: none !important;
+    color: black;
+}
+
+.breadcrumb-non-active:hover {
+    color: #CE7A58;
+}
+
+.alert-text {
+    font-size: 17px;
+    color: red;
+}
+
+.text{
+    font-size: 18px;
+    padding-top: 5px;
+}
+
+.submit-bt {
+    width: 160px;
+    height: 40px;
+    font-size: 18px !important;
+    text-align: center;
+    background-color: #CE7A58 !important;
+    box-shadow: none !important;
+  }
+  
+  .submit-bt:hover {
+    opacity: 80%;
+  }
+input:focus{
+    border: #CE7A58 1px solid !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+textarea:focus{
+    border: #CE7A58 1px solid !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.cot{
+    padding: 15px  15px  15px 0px !important;
+    overflow-wrap: break-word;
+}
+
+.hang{
+    margin: 0px !important;
+}
+
+/* footer  */
+.footer {
+    height: 53px;
+    display: flex;
+    list-style: none;
+    font-size: 16px;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    margin-bottom: 0px;
+}

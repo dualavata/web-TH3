@@ -1,0 +1,75 @@
+* {
+    font-family: 'Nunito', sans-serif;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.icon-header {
+    margin-top: 20px;
+}
+
+.pic-header {
+    margin-bottom: 30px;
+    width: 375px;
+}
+
+
+
+.header {
+    font-size: 26px;
+    margin: 0;
+}
+
+.login {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    border: 1px solid#C9CDCF;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+label {
+    font-size: 18px;
+}
+
+.form-control {
+    height: 44px;
+}
+
+.login-bt {
+    width: 450px;
+    height: 40px;
+    font-size: 18px !important;
+    text-align: center;
+    margin: 0px;
+    background-color: #CE7A58 !important;
+    box-shadow: none !important;
+}
+
+.login-bt:hover {
+    opacity: 80%;
+}
+
+
+/* footer  */
+.footer-bar {
+    background-color: #903938;
+    margin-top: 60px;
+    bottom: 0px;
+}
+
+.footer {
+    width: fit-content;
+    height: 53px;
+    display: flex;
+    list-style: none;
+    font-size: 16px;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    margin-bottom: 0px;
+}

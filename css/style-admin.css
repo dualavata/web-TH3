@@ -1,0 +1,162 @@
+* {
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  .nav-link {
+    font-weight: 600;
+    color: black !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    font-size: 20px;
+  }
+  
+  .nav-link:hover {
+    background-color: #CE7A58 !important;
+    color: white !important;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    width: 100%;
+  }
+  
+  .nav1 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 276px;
+    height: 40px;
+  }
+  
+  .logo {
+    height: 80px;
+  }
+  
+  .nav-pro5 {
+    height: 30px;
+  }
+  
+  .nav-pro5:hover {
+    opacity: 0.6;
+  }
+  
+  .nav-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .butt {
+    width: 130px;
+    height: 40px !important;
+    border-color: #CE7A58 !important;
+    color: black !important;
+    font-weight: 600 !important;
+    font-size: 17px !important;
+    box-shadow: none !important;
+  }
+  
+  .butt:hover {
+    color: white !important;
+    background-color: #CE7A58 !important;
+  }
+  
+  .home-icon {
+    height: 30px;
+    background-color: #CE7A58;
+    padding-top: 23px;
+    padding-bottom: 22.6px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .home-icon-detail {
+    color: white;
+  }
+  
+  .home-icon-detail:hover {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* từ đầu tới hết thanh menu */
+  
+  .text-tracuu {
+    text-align: start;
+    font-size: 28px;
+    margin-bottom: 0px;
+    font-weight: 600;
+    padding-left: 5px;
+  }
+  
+  .search-bt {
+    width: 170px;
+    height: 40px;
+    font-size: 18px !important;
+    text-align: center;
+    margin: 0px 15px 0px 15px;
+    background-color: #CE7A58 !important;
+    box-shadow: none !important;
+  }
+  
+  .search-bt:hover {
+    opacity: 80%;
+  }
+  
+  .form-control {
+    width: 570px;
+    height: 40px;
+  }
+  
+  .bird-img {
+    height: 250px;
+    position: absolute;
+    right: 0px;
+    top: 150px;
+  }
+  
+  /* breadrumb  */
+  .breadcrumb-non-active {
+    text-decoration: none !important;
+    color: black;
+  }
+  
+  .breadcrumb-non-active:hover {
+    color: #CE7A58;
+  }
+  
+  .alert-text {
+    font-size: 17px;
+    color: red;
+  }
+  
+  input:focus{
+    border: #CE7A58 1px solid !important;
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  
+  /* footer  */
+  .footer-bar {
+    background-color: #903938;
+    margin-top: 60px;
+    bottom: 0px;
+  }
+  
+  .footer {
+    width: fit-content;
+    height: 53px;
+    display: flex;
+    list-style: none;
+    font-size: 16px;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    margin-bottom: 0px;
+  }
+  
+  .hide-table {
+    display: none;
+  }
+  
+  .show-table {
+    display: block;
+  }
